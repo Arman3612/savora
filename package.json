@@ -1,0 +1,32 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "this is react by arman khan",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/Arman3612/React_js#readme",
+  "bugs": {
+    "url": "https://github.com/Arman3612/React_js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arman3612/React_js.git"
+  },
+  "license": "ISC",
+  "author": "arman",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "browserslist":[
+    "last 2 Chrome version"
+  ]
+}
