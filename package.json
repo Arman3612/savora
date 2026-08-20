@@ -21,6 +21,7 @@
     "build": "parcel build Day_2/index2.html ",
     "startt":"parcel Day_3/one.html",
     "buildd": "parcel build Day_3/one.html ",
+    "startday4":"parcel Day_4/one.html",
     "test": "jest"
   },
   "devDependencies": {
