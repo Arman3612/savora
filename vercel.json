@@ -1,0 +1,10 @@
+{
+  "buildCommand": "parcel build index.html --public-url ./",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

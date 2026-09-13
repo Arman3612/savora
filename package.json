@@ -17,8 +17,9 @@
   "author": "arman",
   "type": "commonjs",
   "scripts": {
-    "build": "parcel build Day_7/one.html ",
-    "day7": "parcel Day_7/one.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "day7": "parcel index.html",
     "server": "node server/index.js",
     "test": "jest"
   },
