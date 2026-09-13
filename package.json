@@ -17,23 +17,22 @@
   "author": "arman",
   "type": "commonjs",
   "scripts": {
-    "start":"parcel Day_2/index2.html",
-    "build": "parcel build Day_2/index2.html ",
-    "startt":"parcel Day_3/one.html",
-    "buildd": "parcel build Day_3/one.html ",
-    "startday4":"parcel Day_4/one.html",
-    "day5":"parcel Day_5/one.html",
-    "day6":"parcel Day_6/one.html",
+    "build": "parcel build Day_7/one.html ",
+    "day7": "parcel Day_7/one.html",
+    "server": "node server/index.js",
     "test": "jest"
   },
   "devDependencies": {
     "parcel": "^2.16.4"
   },
   "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^6.30.6"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 Chrome version"
   ]
 }
